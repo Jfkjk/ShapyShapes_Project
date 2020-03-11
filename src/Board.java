@@ -83,7 +83,9 @@ public class Board extends JPanel implements ActionListener {
             }
             if (actors.size() <= STATS.getNumEnemies() + 1) {
                 System.out.println("killed em all");
-                game.setMouseClicked();
+                STATS.setLevel(2);
+                STATS.updateLevel();
+                setup();
             }
         }
         if(game.isMouseClicked()){

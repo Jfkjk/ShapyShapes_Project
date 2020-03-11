@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShapyShapes:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShapyShapes_jar</output-path>
+    <root id="archive" name="ShapyShapes.jar">
+      <element id="module-output" name="ShapyShapes" />
+    </root>
+  </artifact>
+</component>

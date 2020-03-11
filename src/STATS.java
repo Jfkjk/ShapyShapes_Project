@@ -57,18 +57,15 @@ public class STATS {
     public static void updateLevel(){
         switch(Level){
             case 1:
-                setNumFood(5);
-                setNumEnemies(1);
+                setNumFood(100);
+                setNumEnemies(3);
                 setLowSpeed(4);
                 setHighSpeed(4);
-                break;
             case 2:
-                setNumFood(10);
-                setNumEnemies(3);
-                setLowSpeed(8);
-                setHighSpeed(10);
-                break;
-            default:
+                setNumFood(90);
+                setNumEnemies(4);
+                setLowSpeed(4);
+                setHighSpeed(4);
         }
     }
 }
